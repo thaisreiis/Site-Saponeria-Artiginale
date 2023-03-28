@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "ElegantIcons";
+  src: url("fonts/ElegantIcons.eot");
+  src: url("fonts/ElegantIcons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ElegantIcons.woff") format("woff"),
+    url("fonts/ElegantIcons.ttf") format("truetype"),
+    url("fonts/ElegantIcons.svg#ElegantIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: "ElegantIcons";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  box-shadow: none;
+  border-bottom: 0px;
+}
+
+input[type="text"]:not(.browser-default) {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+input[type="password"]:not(.browser-default) {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+input[type="password"]:not(.browser-default):focus:not([readonly]) {
+  border: 0px;
+  box-shadow: none;
+}
+
+button:focus {
+  background-color: transparent;
+}
+
+.col-sm-12 {
+  padding: 0px !important;
+}
+
+.col-md-12 {
+  padding: 0px !important;
+}
+
+.col-lg-12 {
+  padding: 0px !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+.fleft {
+  display: block;
+  float: left !important;
+}
+
+.fright {
+  display: block;
+  float: right !important;
+}
+
+.btn {
+  border: none;
+  border-radius: inherit;
+  display: inline-block;
+  height: inherit;
+  line-height: inherit;
+  padding: inherit;
+  text-transform: inherit;
+  vertical-align: inherit;
+}
+
+.btn:focus,
+.btn:hover,
+.btn-large:hover {
+  background-color: transparent;
+}
